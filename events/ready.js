@@ -1,5 +1,5 @@
 const { ActivityType } = require('discord.js');
-const { backfillMemberRoles } = require('events/guildMemberAdd');
+const { backfillMemberRoles } = require('./guildMemberAdd');
 
 module.exports = async (client) => {
     console.log(`✅ Logged in as ${client.user.tag}`);
